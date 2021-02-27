@@ -34,9 +34,9 @@ namespace IdeasWebApp.Controllers
         }
 
         // GET: Ideas/ShowSearchResults
-        public string ShowSearchResults(String SearchPhrase)
+        public async Task<IActionResult> ShowSearchResults(String SearchPhrase)
         {
-            return "You entered: " + SearchPhrase;
+            return View("Index", await _context.Idea.Where(i => i.Title.Contains(SearchPhrase)).ToListAsync());
         }
 
         // GET: Ideas/Details/5
