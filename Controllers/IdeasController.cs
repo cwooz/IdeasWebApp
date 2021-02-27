@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using IdeasWebApp.Data;
 using IdeasWebApp.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace IdeasWebApp.Controllers
 {
@@ -58,6 +59,7 @@ namespace IdeasWebApp.Controllers
         }
 
         // GET: Ideas/Create
+        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -66,6 +68,7 @@ namespace IdeasWebApp.Controllers
         // POST: Ideas/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Title,Body")] Idea idea)
@@ -80,6 +83,7 @@ namespace IdeasWebApp.Controllers
         }
 
         // GET: Ideas/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -98,6 +102,7 @@ namespace IdeasWebApp.Controllers
         // POST: Ideas/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Body")] Idea idea)
@@ -131,6 +136,7 @@ namespace IdeasWebApp.Controllers
         }
 
         // GET: Ideas/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -149,6 +155,7 @@ namespace IdeasWebApp.Controllers
         }
 
         // POST: Ideas/Delete/5
+        [Authorize]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
