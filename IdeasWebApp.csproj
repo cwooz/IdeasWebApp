@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>aspnet-IdeasWebApp-8953DAD9-CCC4-4D1A-ADD4-5EC85F03B706</UserSecretsId>
+    <UserSecretsId>aspnet-IdeasWebApp-28311DCD-7990-41C1-814B-2C6561A1158C</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

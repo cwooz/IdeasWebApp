@@ -60,7 +60,6 @@ C:\Users\wooz\source\repos\IdeasWebApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\
 C:\Users\wooz\source\repos\IdeasWebApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\wooz\source\repos\IdeasWebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\wooz\source\repos\IdeasWebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\wooz\source\repos\IdeasWebApp\obj\Debug\netcoreapp3.1\IdeasWebApp.csprojAssemblyReference.cache
 C:\Users\wooz\source\repos\IdeasWebApp\obj\Debug\netcoreapp3.1\IdeasWebApp.AssemblyInfoInputs.cache
 C:\Users\wooz\source\repos\IdeasWebApp\obj\Debug\netcoreapp3.1\IdeasWebApp.AssemblyInfo.cs
 C:\Users\wooz\source\repos\IdeasWebApp\obj\Debug\netcoreapp3.1\IdeasWebApp.csproj.CoreCompileInputs.cache
