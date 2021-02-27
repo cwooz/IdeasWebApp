@@ -33,6 +33,12 @@ namespace IdeasWebApp.Controllers
             // return View(await _context.Idea.ToListAsync());
         }
 
+        // GET: Ideas/ShowSearchResults
+        public string ShowSearchResults(String SearchPhrase)
+        {
+            return "You entered: " + SearchPhrase;
+        }
+
         // GET: Ideas/Details/5
         public async Task<IActionResult> Details(int? id)
         {
