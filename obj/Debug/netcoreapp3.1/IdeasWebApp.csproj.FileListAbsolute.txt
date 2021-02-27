@@ -188,3 +188,4 @@ C:\Users\wooz\source\repos\IdeasWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Ideas
 C:\Users\wooz\source\repos\IdeasWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Ideas\Details.cshtml.g.cs
 C:\Users\wooz\source\repos\IdeasWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Ideas\Edit.cshtml.g.cs
 C:\Users\wooz\source\repos\IdeasWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Ideas\Index.cshtml.g.cs
+C:\Users\wooz\source\repos\IdeasWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Ideas\ShowSearchForm.cshtml.g.cs
