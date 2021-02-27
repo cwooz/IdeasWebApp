@@ -183,3 +183,8 @@ C:\Users\wooz\source\repos\IdeasWebApp\IdeasWebApp\bin\Debug\netcoreapp3.1\runti
 C:\Users\wooz\source\repos\IdeasWebApp\IdeasWebApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\wooz\source\repos\IdeasWebApp\IdeasWebApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\wooz\source\repos\IdeasWebApp\IdeasWebApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\wooz\source\repos\IdeasWebApp\IdeasWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Ideas\Create.cshtml.g.cs
+C:\Users\wooz\source\repos\IdeasWebApp\IdeasWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Ideas\Delete.cshtml.g.cs
+C:\Users\wooz\source\repos\IdeasWebApp\IdeasWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Ideas\Details.cshtml.g.cs
+C:\Users\wooz\source\repos\IdeasWebApp\IdeasWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Ideas\Edit.cshtml.g.cs
+C:\Users\wooz\source\repos\IdeasWebApp\IdeasWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Ideas\Index.cshtml.g.cs
