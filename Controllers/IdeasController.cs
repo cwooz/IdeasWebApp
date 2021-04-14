@@ -29,9 +29,9 @@ namespace IdeasWebApp.Controllers
         // GET: Ideas/ShowSearchForm
         public async Task<IActionResult> ShowSearchForm()
         {
-            return View();
+            //return View();
             // return View("ShowSearchForm");
-            // return View(await _context.Idea.ToListAsync());
+            return View(await _context.Idea.ToListAsync());
         }
 
         // GET: Ideas/ShowSearchResults
